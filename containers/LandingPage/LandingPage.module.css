@@ -1,0 +1,9 @@
+.container .startingText {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 20vh 0;
+}
+
+.container {
+  padding: 10vw;
+}

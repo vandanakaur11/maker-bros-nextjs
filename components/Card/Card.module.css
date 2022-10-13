@@ -1,0 +1,18 @@
+.card {
+  width: 100%;
+  padding-bottom: 10vh;
+}
+
+.imgStyle:hover {
+  cursor: pointer;
+  -webkit-filter: grayscale(100%) blur(2px);
+  filter: grayscale(50%) blur(3px);
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.card .heading {
+  padding: 0.875rem 0;
+  font-size: 1.875rem;
+}

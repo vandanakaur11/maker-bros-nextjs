@@ -1,0 +1,107 @@
+.main {
+  margin: 0 0.5vw;
+}
+
+.main div {
+  margin-top: 0.5vw;
+}
+
+.twinWrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.twinWrapInner {
+  width: 48.5vw;
+}
+
+.bluePrintWrap {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.bluePrintContent {
+  display: flex;
+  margin: 0 30vw;
+}
+
+.text1 {
+  font-size: 20px;
+}
+
+.text2 {
+  font-size: 12px;
+}
+
+.bluePrintContentWrap {
+  padding: 10vh 0;
+}
+
+.audioWrap {
+  padding: 4vh 30vw;
+}
+
+.audioHeading {
+  font-size: 30px;
+}
+
+.audioSubHeading {
+  font-size: 16px;
+}
+
+.audioText {
+  font-size: 14px;
+}
+
+.timingWrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.readMore {
+  text-align: center;
+  font-weight: bold;
+}
+
+.readMore:hover {
+  cursor: pointer;
+}
+
+.teams {
+  display: flex;
+  font-size: 16px;
+  width: 20vw;
+  justify-content: space-between;
+}
+
+.loadMoreContent {
+  padding: 1rem 0;
+  border-bottom: 1px solid black;
+}
+
+.ArrowWrap {
+  padding-top: 5px;
+  padding-left: 4px;
+}
+
+.loadMoreContentHeading {
+  font-weight: bold;
+}
+
+.imgWrapper:hover {
+  cursor: pointer;
+  -webkit-filter: grayscale(100%) blur(2px);
+  filter: grayscale(50%) blur(3px);
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.twinWrapInner:hover {
+  cursor: pointer;
+  -webkit-filter: grayscale(100%) blur(2px);
+  filter: grayscale(50%) blur(3px);
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}

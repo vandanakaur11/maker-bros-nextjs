@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "FOUNDERS GROTESK";
+  src: url("./../assets/FONTS/FOUNDERS\ GROTESK/REGULAR/FoundersGrotesk-Regular.ttf");
+}
+
+@font-face {
+  font-family: "SIGNIFIER";
+  src: url("./../assets/FONTS/SIGNIFIER/REGULAR/Signifier-Regular.ttf");
+}
+
+body {
+  font-family: "FOUNDERS GROTESK";
+}
+
+.text_capitalize {
+  text-transform: capitalize;
+}
+
+.text_uppercase {
+  text-transform: uppercase;
+}
+
+.text_lowercase {
+  text-transform: lowercase;
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+}

@@ -1,0 +1,34 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu_bar {
+  background-color: transparent;
+  color: black;
+  font-size: 75px;
+  width: 60vw;
+  font-weight: bolder;
+  list-style: none;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu_bar li {
+  display: inline-block;
+}
+
+.menu_bar li link a {
+  transition: all 0.3s ease 0s;
+  color: black;
+}
+
+.menu_bar li a {
+  color: black;
+}
+
+.menu_bar li a:hover {
+  color: darkcyan;
+}
